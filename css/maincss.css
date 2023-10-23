@@ -1,0 +1,66 @@
+html {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    background-color: darkcyan;
+}
+p {
+    font-size: 18px;
+}
+.title {
+    background-color: darkcyan;
+    font-size: 400%;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;
+}
+
+.topbuttons {
+    background-color:aquamarine;
+    border: none;
+    color:black;
+    font-size: 60px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    float: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.topbuttons2 {
+    border: none;
+    outline: 0;
+    display: grid;
+    grid-template-columns: repeat(4, auto); 
+    gap: 10px;
+    padding: 8px;
+    color:darkcyan;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+.aboutme {
+    font-size: x-large;
+    padding: 20px;
+}
+.contactdetails {
+    font-style: oblique;
+    font-size: x-large;
+}
+.aboutmeparagraph {
+    text-align: left;
+    padding: 20px;
+    border-color: black;
+    border-style: dashed;
+    max-width: 45%;
+}
+.aboutmeimage {
+    max-width: 45%;
+}    
+.image {
+    max-width: 100%;
+    max-height: 100%;
+}
+.aboutme2 {
+    font-size: large;
+    padding: 20px;
+}
